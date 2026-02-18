@@ -233,7 +233,7 @@ function App() {
             </div>
 
             {/* Admin Panel */}
-            {showAdmin && (
+            {/* {showAdmin && (
                 <div className="modal-overlay">
                     <div className="modal-content" style={{ textAlign: 'left', minWidth: '350px', maxHeight: '90vh', overflowY: 'auto', background: 'white', color: '#333' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', position: 'sticky', top: 0, background: 'white', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid #eee' }}>
@@ -344,7 +344,7 @@ function App() {
                         </button>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
     );
 }
